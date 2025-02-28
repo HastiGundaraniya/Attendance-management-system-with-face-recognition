@@ -1,0 +1,99 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+/* Sidebar styling */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.sidenav h2{
+  color: dodgerblue;
+}
+
+.nav-stacked {
+  padding-left: 0;
+}
+
+.nav-stacked li {
+  list-style: none; 
+  padding: 10px;
+  cursor: pointer;
+}
+
+.nav-stacked li a {
+  text-decoration: none; /* Removes underline */
+  color: black; /* Change text color */
+  display: block; /* Makes the link fill the list item */
+  padding: 10px;
+}
+
+.nav-stacked li:hover, 
+.nav-stacked li:hover a {
+  background: #acd2f7;
+  color: white;
+}
+
+.nav-stacked li.active,
+.nav-stacked li.active a
+{
+  background: #acd2f7; /* Active background */
+  color: white;
+}
+.nav-stacked li a {
+  text-decoration: none;
+  color: rgb(113, 111, 111);
+  font-weight: bold;
+}
+
+/* Main content */
+.content {
+  height: 100vh;
+}
+
+.nav{
+  background: #fff;
+  padding-left: 20px !important;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.well {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+
+.row .col-sm-3,
+.row .col-sm-4,
+.row .col-sm-8 {
+  padding: 10px;
+}
